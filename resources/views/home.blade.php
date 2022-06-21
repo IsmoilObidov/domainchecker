@@ -149,36 +149,12 @@
             </div>
         </div>
     </div>
-    <header id="topnav" class="navbar navbar-midnightblue navbar-fixed-top clearfix" role="banner">
-        <div class="row">
-
-            
-
-            <div class="col-md-5">
-
-                <h3 style="color:rgb(225, 231, 240); margin-bottom:0px;"> {{ env('APP_NAME') }} </h3>
-            </div>
-
-            <div class="col-md-5">
-
-                <div class="yamm navbar-left navbar-collapse collapse in">
-                    <ul class="nav navbar-nav">
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-    </header>
     <div id="wrapper">
         <div id="layout-static">
             
             <div class="static-content-wrapper">
                 <div class="static-content">
                     <div class="page-content">
-                        <ol class="breadcrumb">
-
-                            <li class="active">/<a href="#">@yield('title')</a></li>
-                        </ol>
                         <div class="page-heading">
                             <h1>@yield('title')</h1>
                         </div>
@@ -189,13 +165,11 @@
                         </div>
                         <!-- .container-fluid -->
                     </div>
-                    <!-- #page-content -->
                 </div>
                 <footer role="contentinfo">
                     <div class="clearfix">
                         <ul class="list-unstyled list-inline pull-left">
                             <li>
-                                <h6 style="margin: 0;"> © 2022 {{ env('APP_NAME') }}</h6>
                             </li>
                         </ul>
                         <button class="pull-right btn btn-link btn-xs hidden-print" id="back-to-top"><i
